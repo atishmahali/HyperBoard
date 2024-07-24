@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c2c2c; /* Dark grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #e0e0e0; /* Light grey text color */
+}
+
+.container {
+    background-color: #3a3a3a; /* Medium grey container background */
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #6495ed; /* Light blue header background */
+    color: white;
+    margin-bottom: 10px;
+}
+
+.timer {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fa8072; /* Salmon color for timer text */
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70px;
+    color: white;
+}
+
+#start {
+    background-color: #6495ed; /* Light blue start button */
+}
+
+#stop {
+    background-color: #fa8072; /* Salmon stop button */
+}
+
+#reset {
+    background-color: #6c757d; /* Grey reset button */
+}

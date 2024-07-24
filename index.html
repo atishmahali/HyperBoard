@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HyperBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/context_menu.js" defer></script>
+    <script src="scripts/change_bg_btn.js" defer></script>
+    <script src="scripts/globals.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/logicking.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body id="badan">
+<div id="menu">
+    <span class="menu-item" id="change-bg-btn">
+        Change Background
+        <input type="file" accept="image/*" style="display: none" id="upload-bg-btn" />
+    </span>
+    <span class="menu-item" id="toggle-animations-btn">
+        Toggle Animations
+    </span>
+    <span class="menu-item" id="change-color-btn">
+        Change Color
+        <input type="color" style="display: none" id="change-color-input" />
+    </span>
+</div>
+
+<nav class="bar">
+    <div id="name" contenteditable spellcheck="false">./root</div>
+    <div id="date"></div>
+</nav>
+
+<div class="flex justify-center">
+    <div class="flex items-center gap-2 relative">
+        <h2 id="temperature" class="text-base animate-appear font-light text-gray-300">
+            Loading...
+        </h2>
+        <h3 id="celcius"></h3>
+    </div>
+</div>
+
+<main>
+    <h1 id="clock" class="text-center text-5xl">
+        <div id="hours"></div>
+        <div id="mkhi" class="vis-hid">:</div>
+        <div id="minutes"></div>
+        <div id="meridiem"></div>
+    </h1>
+    <h3 id="greeting-msg" class="text-center mt-4"></h3>
+    <div class="text-center mt-4">
+        <a href="pomodoro/pomodoro.html">
+            <button class="btn">
+                🕒 Go to Pomodoro
+            </button>
+        </a>
+    </div>
+</main>
+</body>
+</html>
