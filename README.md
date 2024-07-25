@@ -1,5 +1,6 @@
 
-# HyperBoard https://atishmahali.github.io/HyperBoard/
+# HyperBoard
+## https://atishmahali.github.io/HyperBoard/
 
 HyperBoard is a Digital Display Board designed for as per the use case of HyperVerge.
 
