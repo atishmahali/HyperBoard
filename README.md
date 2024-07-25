@@ -66,7 +66,7 @@ Load Unpacked Extension:
 Click on the Load unpacked button.
 In the dialog that appears, navigate to the directory where your extension files are located and select the folder.
 
-
+#USE 75% DISPLAY FOR A BETTER CSS VIEW
 
 ```
     
