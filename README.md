@@ -65,9 +65,8 @@ Load Unpacked Extension:
 
 Click on the Load unpacked button.
 In the dialog that appears, navigate to the directory where your extension files are located and select the folder.
-Test Your Extension:
 
-Once loaded, you should see your extension listed. Ensure all functionalities, especially the mandatory widgets (Google Slides and Pomodoro Clock), are working properly.
+
 
 ```
     
