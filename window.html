@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Embedded Google Slides</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f9;
+        }
+        .container {
+            position: fixed;
+            bottom: 20px; /* Adjust to move up/down */
+            left: 20px; /* Adjust to move left/right */
+            background-color: white;
+            border-radius: 10px;
+            width: 300px; /* Adjust the width */
+            height: 200px; /* Adjust the height */
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9gC3qsfmN7H5D_lmtICkO8BNwXwMwDLF7MFL7Ej0oR4o7Q9_8kqLRV5-x6UQhz1ZrGtYryxIYgL1J/embed?start=true&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+</body>
+</html>

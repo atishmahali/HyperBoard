@@ -5,6 +5,9 @@ const meridiem = document.getElementById("meridiem");
 const greeting_msg = document.getElementById("greeting-msg");
 const date =  document.getElementById("date");
 const name = document.getElementById("name");
+const quote = document.getElementById("quote");
+
+
 
 function get_name_from_localStorage(){
     name.textContent = localStorage.getItem("hyperboard_NAME") ?? name.textContent;

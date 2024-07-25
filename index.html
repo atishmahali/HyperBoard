@@ -5,24 +5,22 @@
     <title>HyperBoard</title>
     <link rel="stylesheet" href="style.css">
     <script src="scripts/context_menu.js" defer></script>
+    <script src="./scripts/quotes.js" defer></script>
     <script src="scripts/change_bg_btn.js" defer></script>
     <script src="scripts/globals.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/docs.js" defer></script>
     <script src="scripts/logicking.js" defer></script>
     <script src="main.js" defer></script>
 </head>
 <body id="badan">
+
+
+
 <div id="menu">
     <span class="menu-item" id="change-bg-btn">
         Change Background
         <input type="file" accept="image/*" style="display: none" id="upload-bg-btn" />
-    </span>
-    <span class="menu-item" id="toggle-animations-btn">
-        Toggle Animations
-    </span>
-    <span class="menu-item" id="change-color-btn">
-        Change Color
-        <input type="color" style="display: none" id="change-color-input" />
     </span>
 </div>
 
@@ -51,10 +49,38 @@
     <div class="text-center mt-4">
         <a href="pomodoro/pomodoro.html">
             <button class="btn">
-                🕒 Go to Pomodoro
+                🕒 Focus Mode
             </button>
         </a>
     </div>
+    <div class="iframe-container-wrapper">
+        <div class="spotify-embed-container">
+            <iframe src="https://open.spotify.com/embed/playlist/4VlhsBbFVKX8bKqMwN5utG?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="iframe-container-doc">
+            <iframe id="draggable-iframe" src="https://docs.google.com/document/d/e/2PACX-1vTT9Ffxl-kTJG2jRtq9cmG9Ark7o-2mPURNV6Oric-SnCMKjlRY2VgthZ3E5b0HAiuZRDSHbwLXiQf9/pub?embedded=true" width="500" height="265"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSjur9Nn97WQOV1rfmG8NEJbPtBKbm7GK9EJHCU9losxIeSjlMYNkcpuvVbEmwTwQ/embed?start=true&loop=true&delayms=3000" width="500" height="265" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="iframe-container-calender">
+            <iframe src="https://calendar.google.com/calendar/embed?src=en.indian%23holiday%40group.v.calendar.google.com&ctz=Asia%2FKolkata"  ></iframe>        </div>
+        <div class="strawpoll-embed" id="strawpoll_" ><iframe title="StrawPoll Embed" id="strawpoll_iframe_1MnwkOLdAn7" src="https://strawpoll.com/embed/1MnwkOLdAn7" ></iframe><script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"></div>
+    </div>
+        <div class="miro-embed-container">
+            <iframe src="https://miro.com/app/live-embed/uXjVN_-YEL8=/?share_link_id=261320325994&embedId=643908283082&embedSource=oembed&embedMode=view_only_without_ui" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="fullscreen; clipboard-read; clipboard-write; storage-access;"></iframe>        </div>
+
+    <div id="quote" class="text-center animate-away font-serif hidden text-3xl space-y-3 h-fit overflow-hidden mx-auto text-gray-300">
+        <h1 id="quote-quote" class="max-w-[50rem] mx-auto animate-enter2 [text-shadow:_0_1px_2px_rgb(0_0_0_/_60%)]">
+            &ldquo;You have to keep breaking your heart until it
+            opens.&rdquo;
+        </h1>
+        <p id="quote-by" class="animate-enter3 text-base">
+            &mdash; Rumi
+        </p>
+    </div>
+
 </main>
+
 </body>
 </html>
